@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63d4f301-b66e-417c-8db4-8e77cef3d563" name="Changes" comment="Add links">
-      <change afterPath="$PROJECT_DIR$/templates/area/area_detail.html" afterDir="false" />
+    <list default="true" id="63d4f301-b66e-417c-8db4-8e77cef3d563" name="Changes" comment="Adds detail view and links from list view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secretescapes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secretescapes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/city/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/city/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/continent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/continent/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/country/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/country/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +119,8 @@
       <workItem from="1722679266729" duration="15754000" />
       <workItem from="1722843782308" duration="57000" />
       <workItem from="1722844389410" duration="2647000" />
-      <workItem from="1722854848495" duration="5697000" />
+      <workItem from="1722854848495" duration="6359000" />
+      <workItem from="1722874843359" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <option name="closed" value="true" />
@@ -149,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722847635721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adds detail view and links from list view">
+      <option name="closed" value="true" />
+      <created>1722864901186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722864901186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +164,7 @@
     <MESSAGE value="Updates" />
     <MESSAGE value="Streamlines templates" />
     <MESSAGE value="Add links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add links" />
+    <MESSAGE value="Adds detail view and links from list view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds detail view and links from list view" />
   </component>
 </project>

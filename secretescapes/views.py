@@ -14,11 +14,6 @@ class CountryDetail(DetailView):
     lookup_field = "pk"
     template_name = "area/area_detail.html"
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['itemName'] = 'Country'
-        return context
-
 
 class AllCities(ListView):
     model = City
@@ -37,11 +32,6 @@ class CityDetail(DetailView):
     lookup_field = "pk"
     template_name = "area/area_detail.html"
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['itemName'] = 'City'
-        return context
-
 
 class AllContinents(ListView):
     model = Continent
@@ -54,8 +44,3 @@ class ContinentDetail(DetailView):
     model = Continent
     lookup_field = "pk"
     template_name = "area/area_detail.html"
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['itemName'] = 'Continent'
-        return context
