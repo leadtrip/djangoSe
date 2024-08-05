@@ -13,12 +13,11 @@ class AllCities(ListView):
     model = City
     template_name = "city/index.html"
     paginate_by = 10
-    # queryset = City.objects.filter(template_name != "")
     ordering = "name"
 
     def get_queryset(self, *args, **kwargs):
         qs = super(AllCities, self).get_queryset(*args, **kwargs)
-        qs = qs.exclude(name__exact='')
+        qs = qs.exclude(name__exact='')     # there are a number of non-null names that are empty strings
         return qs
 
 
