@@ -64,6 +64,9 @@ class AllUkSales(ListView):
     template_name = "sale/index.html"
     paginate_by = 10
 
+    def get_queryset(self, *args, **kwargs):
+        return Sale.uk_sales.get_queryset()
+
 
 class SaleDetail(DetailView):
     model = Sale

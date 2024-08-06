@@ -1,5 +1,7 @@
-from django.db import models
+from datetime import timedelta
 
+from django.db import models
+from datetime import datetime
 
 class Country(models.Model):
     id = models.BigIntegerField
@@ -38,7 +40,12 @@ class Territory(models.Model):
 
 class UkSaleManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().filter(territory_id=1)
+        return super().get_queryset().filter(
+            territory_id=1,
+            active=True,
+            start__lt=datetime.now(),
+            end__gt=datetime.now(),
+        )
 
 
 class Sale(models.Model):

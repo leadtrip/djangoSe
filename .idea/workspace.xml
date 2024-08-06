@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63d4f301-b66e-417c-8db4-8e77cef3d563" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/templates/sale/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sale/sale_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/territory/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/territory/territory_detail.html" afterDir="false" />
+    <list default="true" id="63d4f301-b66e-417c-8db4-8e77cef3d563" name="Changes" comment="Adds territories and sales">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secretescapes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secretescapes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secretescapes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
@@ -127,7 +122,7 @@
       <workItem from="1722844389410" duration="2647000" />
       <workItem from="1722854848495" duration="6359000" />
       <workItem from="1722874843359" duration="1223000" />
-      <workItem from="1722928545310" duration="4355000" />
+      <workItem from="1722928545310" duration="6554000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <option name="closed" value="true" />
@@ -169,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722876059374</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adds territories and sales">
+      <option name="closed" value="true" />
+      <created>1722932924939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722932924939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +183,7 @@
     <MESSAGE value="Add links" />
     <MESSAGE value="Adds detail view and links from list view" />
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="Adds territories and sales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds territories and sales" />
   </component>
 </project>
