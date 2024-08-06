@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Territory</h1>
+    <dl>
+        <dt>Country</dt>
+        <dd>{{ object.country_name }}</dd>
+        <dt>Name</dt>
+        <dd>{{ object.name }}</dd>
+        <dt>Currency</dt>
+        <dd>{{ object.currency }}</dd>
+        <dt>Locale</dt>
+        <dd>{{ object.locale }}</dd>
+    </dl>
+{% endblock %}

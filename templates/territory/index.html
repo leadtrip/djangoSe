@@ -1,0 +1,11 @@
+{% extends "listbase.html" %}
+{% block table-content %}
+    <h1>Territories</h1>
+    <table>
+        {% for item in object_list %}
+        <tr>
+            <td><a href ="{% url 'territory-detail' item.id%}">{{ item.name }}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63d4f301-b66e-417c-8db4-8e77cef3d563" name="Changes" comment="Adds detail view and links from list view">
+    <list default="true" id="63d4f301-b66e-417c-8db4-8e77cef3d563" name="Changes" comment="Updates">
+      <change afterPath="$PROJECT_DIR$/templates/sale/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sale/sale_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/territory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/territory/territory_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secretescapes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secretescapes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secretescapes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/secretescapes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +126,8 @@
       <workItem from="1722843782308" duration="57000" />
       <workItem from="1722844389410" duration="2647000" />
       <workItem from="1722854848495" duration="6359000" />
-      <workItem from="1722874843359" duration="1124000" />
+      <workItem from="1722874843359" duration="1223000" />
+      <workItem from="1722928545310" duration="4355000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <option name="closed" value="true" />
@@ -154,17 +161,25 @@
       <option name="project" value="LOCAL" />
       <updated>1722864901186</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1722876059374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722876059374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updates" />
     <MESSAGE value="Streamlines templates" />
     <MESSAGE value="Add links" />
     <MESSAGE value="Adds detail view and links from list view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds detail view and links from list view" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
 </project>

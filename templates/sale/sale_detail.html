@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Sale</h1>
+    <dl>
+        <dt>Start</dt>
+        <dd>{{ object.start }}</dd>
+        <dt>End</dt>
+        <dd>{{ object.end }}</dd>
+        <dt>Territory</dt>
+        <dd>{{ object.territory.country_name }}</dd>
+    </dl>
+{% endblock %}

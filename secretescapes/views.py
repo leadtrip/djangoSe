@@ -1,5 +1,5 @@
 from django.views.generic import ListView, DetailView
-from .models import Country, City, Continent
+from .models import Country, City, Continent, Territory, Sale
 
 
 class AllCountries(ListView):
@@ -44,3 +44,28 @@ class ContinentDetail(DetailView):
     model = Continent
     lookup_field = "pk"
     template_name = "area/area_detail.html"
+
+
+class AllTerritories(ListView):
+    model = Territory
+    template_name = "territory/index.html"
+    paginate_by = 10
+    ordering = "name"
+
+
+class TerritoryDetail(DetailView):
+    model = Territory
+    lookup_field = "pk"
+    template_name = "territory/territory_detail.html"
+
+
+class AllUkSales(ListView):
+    model = Sale
+    template_name = "sale/index.html"
+    paginate_by = 10
+
+
+class SaleDetail(DetailView):
+    model = Sale
+    lookup_field = "pk"
+    template_name = "sale/sale_detail.html"

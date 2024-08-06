@@ -1,0 +1,11 @@
+{% extends "listbase.html" %}
+{% block table-content %}
+    <h1>Sales</h1>
+    <table>
+        {% for item in object_list %}
+        <tr>
+            <td><a href ="{% url 'sale-detail' item.id%}">{{ item.id }}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
