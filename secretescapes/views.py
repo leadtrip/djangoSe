@@ -1,5 +1,9 @@
+import django_filters
 from django.views.generic import ListView, DetailView
 from .models import Country, City, Continent, Territory, Sale
+from rest_framework import generics
+
+from .serializers import CountrySerializer, CitySerializer, SaleSerializer
 
 
 class AllCountries(ListView):
@@ -72,3 +76,22 @@ class SaleDetail(DetailView):
     model = Sale
     lookup_field = "pk"
     template_name = "sale/sale_detail.html"
+
+
+class CountryListCreate(generics.ListCreateAPIView):
+    queryset = Country.objects.all()
+    serializer_class = CountrySerializer
+
+
+class CityList(generics.ListAPIView):
+    queryset = City.objects.all()
+    serializer_class = CitySerializer
+
+
+class SaleList(generics.ListAPIView):
+    serializer_class = SaleSerializer
+    queryset = Sale.objects.all()
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]   # enables filtering on URL params
+    filterset_fields = ["id", "active", "territory"]                        # the list of URL params we allow filtering on
+
+
