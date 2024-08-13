@@ -2,6 +2,7 @@ from django.db import models
 from datetime import datetime
 from django_mysql.models import Bit1BooleanField
 
+
 class Country(models.Model):
     id = models.BigIntegerField
     name = models.CharField(max_length=255)
@@ -67,7 +68,7 @@ class Sale(models.Model):
     end = models.DateTimeField()
     territory = models.ForeignKey(Territory, on_delete=models.CASCADE)
     objects = models.Manager()
-    uk_sales = UkSaleManager()      # custom manager for UK sales
+    uk_sales = UkSaleManager()  # custom manager for UK sales
 
     def __str__(self):
         return f'{self.id}:{self.start}:{self.end}'
